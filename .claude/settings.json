@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./local.properties)",
+      "Read(./keystore.properties)",
+      "Read(./**/*.keystore)",
+      "Read(./**/*.jks)",
+      "Read(./secrets/**)",
+      "Read(./app/google-services.json)",
+      "Read(./.gradle/**)",
+      "Read(./build/**)",
+      "Read(./app/build/**)",
+      "Read(./**/build/**)",
+      "Read(./.idea/**)",
+      "Read(./.kotlin/**)"
+    ]
+  }
+}
